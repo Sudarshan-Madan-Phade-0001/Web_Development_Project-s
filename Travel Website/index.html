@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Travel Website</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav__header">
+      <div class="nav__logo">
+        <a href="#" class="logo">Journey<span>Junction</span></a>
+      </div>
+      <div class="nav__menu__btn" id="menu-btn">
+        <i class="ri-menu-line"></i>
+      </div>
+    </div>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#service">Facilities</a></li>
+      <li><a href="#destination">Location</a></li>
+      <li><a href="#package">Plans</a></li>
+      <li><a href="#client">Traveler Insights</a></li>
+    </ul>
+  </nav>
+  <header class="header" id="home">
+    <div class="section__container header__container">
+      <h1>Traveling is the most powerful way of<br /><span>self-healing.</span></h1>
+      <p>If Not Now,when?</p>
+      <form action="/">
+        <div class="input__group">
+          <span><i class="ri-map-2-fill"></i></span>
+          <input type="text" placeholder="Where's your next stop?" />
+        </div>
+        <div class="input__group">
+          <span><i class="ri-map-pin-2-fill"></i></span>
+          <input type="text" placeholder="Region" />
+        </div>
+        <div class="input__group">
+          <span><i class="ri-list-ordered-2"></i></span>
+          <input type="text" placeholder="Travel Option" />
+        </div>
+        <div class="input__group">
+          <button class="btn">Search</button>
+        </div>
+      </form>
+    </div>
+  </header>
+
+  <section class="section__container feature__container" id="service">
+    <div class="feature__card">
+      <img src="assets/feature-1.png" alt="feature" />
+      <div>
+        <h4>Best Spots</h4>
+        <p>"Explore the Most Amazing Spots for Your Next Adventure"</p>
+      </div>
+    </div>
+    <div class="feature__card">
+      <img src="assets/feature-2.png" alt="feature" />
+      <div>
+        <h4>Pricing</h4>
+        <p>"Best Prices with top discount's"</p>
+      </div>
+    </div>
+    <div class="feature__card">
+      <img src="assets/feature-3.png" alt="feature" />
+      <div>
+        <h4>Trip Booking</h4>
+        <p>"Book Your Trip Now with great discount's 'Hurry Up!'"</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="destination" id="destination">
+    <div class="section__container destination__container">
+      <h2 class="section__header">Best Destination in India</h2>
+      <p class="section__description">
+        Best Destination in India for your next trip.
+      </p>
+      <div class="destination__grid">
+        <div class="destination__card">
+          <img src="assets/destination-1.jpg" alt="destination" />
+          <div class="destination__card"></div>
+          
+          <div class="destination__content">Gujrat Kutch</div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/destination-2.jpg" alt="destination" />
+          <div class="destination__content">Punjab Amritsar</div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/destination-3.jpg" alt="destination" />
+          <div class="destination__content">Rajasthan Jaisalmer</div>
+        </div>
+        <div class="destination__card">
+          <img src="assets/destination-4.jpg" alt="destination" />
+          <div class="destination__content">Andhra Pradesh Tirumala Tirupati</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="discount">
+    <div class="section__container discount__container">
+      <h2>
+        "Exclusive Discount Schemes for a More Affordable Journey"<br />
+      </h2>
+      <div class="discount__btn">
+        <button class="btn">Click Here!</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__container package__container" id="package">
+    <h2 class="section__header">Destination's</h2>
+    <p class="section__description">
+      "Your Guide to the Best Locations for Every Type of Traveler"
+    </p>
+    <div class="package__grid">
+      <div class="package__card">
+        <img src="assets/package-1.jpg" alt="package" />
+        <div class="package__card__details">
+          <h4>Shree Padmanabhaswamy Temple</h4>
+          <p>
+            Here’s a description you can use for Shree Padmanabhaswamy Temple:
+            "Shree Padmanabhaswamy Temple – A Divine Marvel"
+            Located in the heart of Thiruvananthapuram, Kerala, the Shree Padmanabhaswamy Temple is a symbol of
+            grandeur, spirituality, and architectural brilliance. Dedicated to Lord Vishnu, this ancient temple is known
+            for its stunning Dravidian-style architecture, intricate carvings, and divine ambiance. The main deity, Lord
+            Padmanabha, is depicted in a reclining posture, symbolizing eternal peace. Revered by millions of devotees,
+            this temple is not only a significant spiritual center but also a must-visit historical landmark. Whether
+            you seek spiritual enlightenment or simply wish to experience the rich cultural heritage of Kerala, a visit
+            to Shree Padmanabhaswamy Temple will leave you awestruck by its beauty and divine energy.
+          </p>
+          <div class="package__card__footer">
+            <button class="btn">Book Now</button>
+            <h3>45,000 ₹</h3>
+          </div>
+        </div>
+      </div>
+      <div class="package__card">
+        <img src="assets/package-2.jpg" alt="package" />
+        <div class="package__card__details">
+          <h4>Kanyakumari</h4>
+          <p>
+            "Kanyakumari – The Tranquil Confluence of Spirituality and Natural Beauty"
+            Nestled at the southernmost tip of India, Kanyakumari is a picturesque town where the Arabian Sea, the Bay
+            of Bengal, and the Indian Ocean meet. Known for its stunning sunrises and sunsets, this vibrant destination
+            offers a perfect blend of natural beauty, rich culture, and spiritual significance. The iconic Kanyakumari
+            Temple, dedicated to the Goddess Kanya Kumari, draws thousands of devotees every year. Don't miss the
+            majestic Vivekananda Rock Memorial, where Swami Vivekananda meditated. Whether you're seeking spiritual
+            solace, exploring historical landmarks, or simply admiring the breathtaking views, Kanyakumari promises an
+            unforgettable experience filled with peace and wonder.
+          </p>
+          <div class="package__card__footer">
+            <button class="btn">Book Now</button>
+            <h3>40,000 ₹</h3>
+          </div>
+        </div>
+      </div>
+      <div class="package__card">
+        <img src="assets/package-3.jpg" alt="package" />
+        <div class="package__card__details">
+          <h4>Sikkim Darjeeling</h4>
+          <p>
+            "Sikkim and Darjeeling – A Majestic Journey Through the Himalayas"
+            Sikkim and Darjeeling are two of the most enchanting destinations nestled in the eastern Himalayas, offering
+            a perfect blend of natural beauty, cultural richness, and serenity.
+            Sikkim, with its lush green valleys, snow-capped peaks, and Buddhist monasteries, is a paradise for nature
+            lovers and spiritual seekers alike. From the majestic Khangchendzonga (the third-highest peak in the world)
+            to the tranquil Tsomgo Lake, Sikkim offers a unique escape into the heart of the mountains. Visitors can
+            immerse themselves in the peaceful atmosphere of the Rumtek Monastery, explore vibrant Gangtok, or enjoy the
+            adventure-filled treks and scenic landscapes.
+            Darjeeling, known as the "Queen of the Hills," is famed for its colonial charm, tea gardens, and panoramic
+            views of the mighty Kanchenjunga. The charming Darjeeling Himalayan Railway, a UNESCO World Heritage Site,
+            offers a nostalgic ride through misty mountains. The picturesque Tiger Hill provides breathtaking views of
+            the sunrise, while the tea estates offer a perfect retreat to unwind amidst rolling green hills. Darjeeling
+            also boasts vibrant bazaars, monasteries, and rich cultural experiences.
+          </p>
+          <div class="package__card__footer">
+            <button class="btn">Book Now</button>
+            <h3>75,000 ₹</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section__container client__container" id="client">
+    <h2 class="section__header">Traveler Insights</h2>
+    <p class="section__description">
+      "Traveler Insights – Real Experiences, Real Stories"
+    </p>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="client__card">
+            <img src="assets/client-1.jpg" alt="client" />
+            <span><i class="ri-double-quotes-l"></i></span>
+            <p>
+              "यह तो सच में कमाल का है! कुछ ही मिनटों में मैंने अपना बाली का वेकेशन बुक कर लिया!"
+            </p>
+            <style></style>
+            <h4>Jethalal Champaklal Gada</h4>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client__card">
+            <img src="assets/client-2.jpg" alt="client" />
+            <span><i class="ri-double-quotes-l"></i></span>
+            <p>
+              "यह तो बहुत ही शानदार निकला! कुछ समझ में भी नहीं आया, और देखो, मैंने तो अपनी बाली की छुट्टियां मिनटों में
+              बुक कर ली! अब तो जेतलाल को भी यही कहूंगा—'अरे बेटा, ये तकनीकी चीज़ें मुझे भी समझ में आने लगीं, अब तो तू भी
+              मेरी तरह खुश रहेगा!'"
+            </p>
+            <h4>Champaklal Jentilal Gada</h4>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client__card">
+            <img src="assets/client-3.jpg" alt="client" />
+            <span><i class="ri-double-quotes-l"></i></span>
+            <p>
+              "यह तो पूरी तरह झकास है! मैंने तो सोचा भी नहीं था कि अमृतसर की ट्रिप इतनी जल्दी बुक हो जाएगी। बस कुछ ही
+              सेकंड्स में! अब सोच रहा हूं, अगली बार जेतलाल को साथ ले जाऊं, और उसे दिखाऊं कि असली मजा कहाँ है!"
+            </p>
+            <h4>Roshansingh Harjitsingh Sodhi</h4>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client__card">
+            <img src="assets/client-4.jpg" alt="client" />
+            <span><i class="ri-double-quotes-l"></i></span>
+            <p>
+              "देखो देखो, मैंने तो बस सोचा और राजस्थान की ट्रिप बुक हो गई! अब हम सब मिलकर जोधपुर के किले और जैसलमेर के
+              रेगिस्तान में मस्ती करेंगे! जेतलाल, तुझे तो पता ही है, इस बार हम दोनों मिलकर वहां ढेर सारी यादें बनाएंगे!
+              और हां, परम मित्र, तुझे भी बताऊं, राजस्थान की धरती पर हमारा मज़ा कुछ अलग ही होगा!"
+            </p>
+            <h4>Tarrak Mehta</h4>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="client__card">
+            <img src="assets/client-5.jpg" alt="client" />
+            <span><i class="ri-double-quotes-l"></i></span>
+            <p>
+              "मैंने तो बस एक क्लिक किया और तिरुपति के लिए सबके टिकट बुक हो गए! अब देखो, सोसाइटी के सभी लोग बिना किसी
+              झंझट के भगवान के दर्शन करने जाएंगे। भगवान का आशीर्वाद तो मिल ही जाएगा, साथ ही सबको मेरे बारे में और भी
+              अच्छा सोचना पड़ेगा
+            </p>
+            <h4>Krishnan Iyyer</h4>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </section>
+
+  <section class="subscribe">
+    <div class="section__container subscribe__container">
+      <h2></h2>
+      <div>
+        <p>Let's Connect and Share Your Travel Experience!</p>
+        <form action="/">
+          <input type="text" placeholder="Enter Email" />
+          <button class="btn">send</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <div class="footer__logo">
+          <a href="#" class="logo">Journey<span>Junction</span></a>
+        </div>
+        <p>
+          "Discover India's most stunning destinations, experience incredible value, and book your dream vacation in
+          just a few clicks. From the serene backwaters of Kerala to the majestic hills of Himachal, your perfect Indian
+          escape is just a booking away!"
+        </p>
+        <h4>Reach Out to Us</h4>
+        <ul class="footer__socials">
+          <li>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-google-fill"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="ri-linkedin-fill"></i></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4>DESTINATIONS</h4>
+        <ul class="footer__links">
+          <li><a href="#">Sikkim</a></li>
+          <li><a href="#">Andhra Pradesh</a></li>
+          <li><a href="#">Kutch</a></li>
+          <li><a href="#">Amritsar</a></li>
+          <li><a href="#">Kerla</a></li>
+          <li><a href="#">Rajasthan</a></li>
+          <li><a href="#">Kedarnath Temple</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Facilities</h4>
+        <ul class="footer__links">
+          <li><a href="#">Guided Tour</a></li>
+          <li><a href="#">Comfortable Transport</a></li>
+          <li><a href="#">Accommodation</a></li>
+          <li><a href="#">Meals & Snacks</a></li>
+          <li><a href="#">Travel Insurance</a></li>
+          <li><a href="#">Sightseeing and Activities</a></li>
+          <li><a href="#">24/7 Customer Support</a></li>
+          <li><a href="#">Local Experience </a></li>
+          <li><a href="#">Flexible Payment Options</a></li>
+          <li><a href="#">Secure Journey</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
